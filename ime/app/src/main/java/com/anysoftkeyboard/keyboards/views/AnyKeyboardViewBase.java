@@ -1010,7 +1010,7 @@ public class AnyKeyboardViewBase extends View implements InputViewBinder, Pointe
         mKeyPressTimingHandler.cancelAllMessages();
         mKeyPreviewsManager.cancelAllPreviews();
         mKeyboard = keyboard;
-        mKeyboardName = keyboard.getKeyboardName();
+        mKeyboardName = keyboard.getDefaultDictionaryLocale();
         mKeys = mKeyDetector.setKeyboard(keyboard, keyboard.getShiftKey());
         mKeyDetector.setCorrection(-getPaddingLeft(), -getPaddingTop() + verticalCorrection);
         for (int trackerIndex = 0, trackersCount = mPointerTrackers.size();

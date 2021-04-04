@@ -26,7 +26,7 @@
     <bool name="settings_default_quick_fix">true</bool>
     <bool name="settings_default_key_quick_fix_second_disabled">false</bool>
     <bool name="settings_default_contacts_dictionary">true</bool>
-    <bool name="settings_default_always_hide_language_key">false</bool>
+    <bool name="settings_default_always_hide_language_key">true</bool>
     <string name="settings_default_auto_dictionary_add_threshold">9</string>
     <bool name="settings_default_user_dictionary">true</bool>
     <bool name="settings_default_hide_soft_when_physical">true</bool>
@@ -52,7 +52,7 @@
     <bool name="settings_default_is_sticky_extesion_keyboard">false</bool>
     <bool name="settings_default_extension_keyboard_enabled">true</bool>
 
-    <bool name="settings_default_gesture_typing">false</bool>
+    <bool name="settings_default_gesture_typing">true</bool>
 
     <string name="settings_default_swipe_velocity_threshold">380</string>
     <string name="settings_default_swipe_distance_threshold">140</string>
@@ -64,10 +64,10 @@
 
     <string name="settings_default_keyboard_id">@string/main_english_keyboard_id</string>
     <string name="settings_default_quick_text_key_id">698b8c20-19df-11e1-bddb-0800200c9a66</string>
-    <string name="settings_default_top_row_key">5d945f40-ded5-11e0-9572-0800200c9a66</string>
+    <string name="settings_default_top_row_key">82910c70-ded1-11e0-9572-0800200c9a66</string>
     <string name="settings_default_keyboard_theme_key">8774f99e-fb4a-49fa-b8d0-4083f762250a</string>
     <string name="settings_default_ext_keyboard_key">6f1ecea0-dee2-11e0-9572-0800200c9a66</string>
-    <string name="settings_default_ext_kbd_bottom_row_key">09f8f280-dee2-11e0-9572-0800200c9a66</string>
+    <string name="settings_default_ext_kbd_bottom_row_key">4bd88cea-f31e-4500-b20d-f51757350d8d</string>
 
     <bool name="settings_default_workaround_disable_rtl_fix">false</bool>
     <bool name="settings_default_auto_space">true</bool>
